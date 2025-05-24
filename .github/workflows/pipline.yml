@@ -1,0 +1,13 @@
+name: CI/CD Pipeline
+
+on:
+    push: 
+        branches: [ main ]
+
+jobs:
+    commande-de-base:
+        runs-on: ubuntu-latest
+    
+        steps:
+            - name: create folder
+              run: mkdir newFolder
