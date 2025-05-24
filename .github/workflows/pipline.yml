@@ -11,3 +11,6 @@ jobs:
         steps:
             - name: create folder
               run: mkdir newFolder
+
+            - name: list folders
+              run: ls -l
