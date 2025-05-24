@@ -12,5 +12,8 @@ jobs:
             - name: create folder
               run: mkdir newFolder
 
+    test-job:
+        runs-on: ubuntu-latest
+        steps:
             - name: list folders
               run: ls -l
