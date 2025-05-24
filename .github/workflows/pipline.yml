@@ -16,5 +16,7 @@ jobs:
         runs-on: ubuntu-latest
         needs: commande-de-base
         steps:
+            - name: clone code source
+              uses: actions/checkout@v4
             - name: list folders
               run: ls -l
